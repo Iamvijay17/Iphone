@@ -1,0 +1,21 @@
+.introfirvid{
+    width: 150%;
+    height: auto;
+}
+
+.buybtn{
+    /* border-radius: 40%; */
+    width: 65px;
+    height: auto;
+    font-size: large;
+    font-weight: 500;
+}
+
+.row-4{
+    padding-top: 7%;
+}
+
+.Get{
+    font-weight: 700;
+    font-size: 35px;
+}
