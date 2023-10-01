@@ -1,5 +1,10 @@
+
+.topbar{
+    background: rgb(247, 247, 247);
+    height: 50px;
+}
 .introfirvid{
-    width: 150%;
+    width: 98vw;
     height: auto;
 }
 

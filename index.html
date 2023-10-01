@@ -18,13 +18,107 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
+      <!-- NavBar Start  -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                class="brandlogo"
+                src="asset/apple-logo.png"
+                alt="brand logo"
+                srcset=""
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Store</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mac</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ipad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">iphone</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Watch</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">AirPods</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">TV & Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Entertainment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Accessories</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-bag-shopping"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- NavBar End  -->
+
+      <!-- Top Bar Start  -->
+      <div class="topbar">
+        <div>
+          <h6 class="text-center pt-2">
+            Get up to ₹6000.00 instant savings on selected iPhone models with
+            eligible HDFC Bank cards. <a href="#">Shop iphone ></a>
+          </h6>
+        </div>
+      </div>
+      <!-- Top Bar End  -->
+
       <div class="row">
         <div class="col d-flex justify-content-center">
-          <video autoplay loop preload="auto" class="introfirvid" >
+          <video autoplay loop preload="auto" class="introfirvid">
             <source src="asset/large_2x.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -33,25 +127,26 @@
           <div class="col d-flex justify-content-center">
             <button
               type="button"
-              class="btn btn-primary justify-content-center mt-5 buybtn rounded"
+              class="btn btn-primary justify-content-center mt-5 buybtn rounded-5"
             >
               Buy
             </button>
           </div>
         </div>
-        <div class="row-3">
+        <div class="row">
           <div class="d-flex justify-content-center mt-4">
             <h4>From : 79,000 Rupees</h4>
           </div>
         </div>
-        <div class="row-4">
+        <br /><br />
+        <div class="row">
           <div class="d-flex justify-content-around">
-            <div class="col-4"><h2 class="Get">Get the highlights.</h2></div>
-            <div class="col-4"></div>
-            <div class="col-4">
-              <h5>
+            <div class="col"><h2 class="Get">Get the highlights.</h2></div>
+            <div class="col"></div>
+            <div class="col">
+              <h6 class="">
                 <a href="#">Watch the film</a> <a href="#">Watch the film</a>
-              </h5>
+              </h6>
             </div>
           </div>
         </div>
